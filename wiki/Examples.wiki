@@ -11,4 +11,4 @@ FlashCanvas library will be automatically loaded if your browser is Internet Exp
 = Demos =
 
   * [http://homepage3.nifty.com/revulo/FlashCanvas/examples/open.adaptedstudio.com/html5/many-lines/ Many Lines] by Eric Ishii Eckhardt (original page is [http://open.adaptedstudio.com/html5/many-lines/ here])
-  * [http://homepage3.nifty.com/revulo/FlashCanvas/examples/tomtheisen.com/spread/ Spread Pattern] by Tom Theisen (original page is [http://tomtheisen.com/spread/ here])
+  * [http://tomtheisen.com/spread/ Spread Pattern] by Tom Theisen
