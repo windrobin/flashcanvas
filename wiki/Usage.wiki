@@ -1,0 +1,30 @@
+#summary How to use FlashCanvas in your web page
+
+= Installation =
+
+== Include _flashcanvas.js_ ==
+
+FlashCanvas library consists of two files, _flashcanvas.js_ and _flashcanvas.swf_.
+To install FlashCanvas, copy these files into some directory on a Web server,
+and then add the following line to your HTML file.
+
+{{{
+<!--[if IE]><script type="text/javascript" src="path/to/flashcanvas.js"></script><![endif]-->
+}}}
+
+
+== Initialize Canvas elements ==
+
+When _flashcanvas.js_ is loaded,
+it automatically initialize canvas elements in the HTML file.
+If you create a canvas element dynamically, on the other hand,
+you need to manually initialize the element by calling FlashCanvas.initElement() method.
+Here is a sample code that should work cross-browser.
+
+{{{
+var canvas = document.createElement("canvas");
+document.getElementById("target").appendChild(canvas);
+if (typeof FlashCanvas != "undefined") {
+  FlashCanvas.initElement(canvas);
+}
+}}}
