@@ -1,0 +1,17 @@
+#summary Project pages related to FlashCanvas
+
+= Links =
+
+== Ancestors ==
+
+FlashCanvas is based on the following works:
+
+  * [http://gxjones.blogspot.com/2008/07/flashcanvas.html The first implementation of FlashCanvas] by Grant Jones
+  * [http://code.google.com/p/ascanvas/ ASCanvas] by Colin Leung
+  * [http://timcameronryan.github.com/FlashCanvas/ haXe version of FlashCanvas] by Tim Cameron Ryan
+
+
+== Similar projects ==
+
+  * [http://code.google.com/p/explorercanvas/ ExplorerCanvas]
+  * [http://code.google.com/p/svgweb/ SVG Web]
