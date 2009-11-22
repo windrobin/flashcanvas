@@ -1,0 +1,81 @@
+#summary APIs supported by FlashCanvas
+
+= HTML5 Canvas API =
+
+The current version of FlashCanvas supports as much Canvas APIs as
+[http://code.google.com/p/explorercanvas/ ExplorerCanvas] does;
+support for more APIs will follow in the near future.
+
+
+== HTMLCanvasElement ==
+
+=== Supported ===
+
+  * width
+  * height
+  * getContext()
+
+=== Not supported yet ===
+
+  * toDataURL()
+
+
+== CanvasRenderingContext2D ==
+
+=== Supported ===
+
+  * canvas
+  * save()
+  * restore()
+  * scale()
+  * rotate()
+  * translate()
+  * transform()
+  * setTransform()
+  * globalAlpha
+  * strokeStyle
+  * fillStyle
+  * createLinearGradient()
+  * createRadialGradient()
+  * lineWidth
+  * lineCap
+  * lineJoin
+  * miterLimit
+  * clearRect()
+  * fillRect()
+  * strokeRect()
+  * beginPath()
+  * closePath()
+  * moveTo()
+  * lineTo()
+  * quadraticCurveTo()
+  * bezierCurveTo()
+  * arcTo()
+  * rect()
+  * arc()
+  * fill()
+  * stroke()
+  * clip()
+
+=== Partially supported ===
+
+  * createPattern()
+  * drawImage()
+
+=== Not supported yet ===
+
+  * globalCompositeOperation
+  * shadowOffsetX
+  * shadowOffsetY
+  * shadowBlur
+  * shadowColor
+  * isPointInPath()
+  * font
+  * textAlign
+  * textBaseline
+  * fillText()
+  * strokeText()
+  * measureText()
+  * createImageData()
+  * getImageData()
+  * putImageData()
