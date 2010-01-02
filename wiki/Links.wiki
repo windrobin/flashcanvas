@@ -2,7 +2,7 @@
 
 = Links =
 
-== Ancestors ==
+== Predecessor projects ==
 
 FlashCanvas is based on the following works:
 
@@ -14,4 +14,5 @@ FlashCanvas is based on the following works:
 == Similar projects ==
 
   * [http://code.google.com/p/explorercanvas/ ExplorerCanvas]
+  * [http://uupaa-js-spinoff.googlecode.com/svn/trunk/uuCanvas.js/README.htm uuCanvas.js]
   * [http://code.google.com/p/svgweb/ SVG Web]
