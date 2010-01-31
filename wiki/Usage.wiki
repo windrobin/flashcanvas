@@ -6,10 +6,12 @@
 
 FlashCanvas library consists of two files, _flashcanvas.js_ and _flashcanvas.swf_.
 To install FlashCanvas, copy these files into some directory on a Web server,
-and then add the following line to your HTML file.
+and then add the following HTML code between `<head>` and `</head>` tags on your web page.
 
 {{{
-<!--[if IE]><script type="text/javascript" src="path/to/flashcanvas.js"></script><![endif]-->
+<!--[if IE]>
+<script type="text/javascript" src="path/to/flashcanvas.js"></script>
+<![endif]-->
 }}}
 
 
