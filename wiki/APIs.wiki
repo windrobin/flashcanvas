@@ -14,9 +14,6 @@ support for more APIs will follow in the near future.
   * width
   * height
   * getContext()
-
-=== Not supported yet ===
-
   * toDataURL()
 
 
@@ -50,16 +47,16 @@ support for more APIs will follow in the near future.
   * lineTo()
   * quadraticCurveTo()
   * bezierCurveTo()
-  * arcTo()
   * rect()
   * arc()
   * fill()
   * stroke()
-  * clip()
 
 === Partially supported ===
 
   * createPattern()
+  * arcTo()
+  * clip()
   * drawImage()
 
 === Not supported yet ===
@@ -70,6 +67,7 @@ support for more APIs will follow in the near future.
   * shadowBlur
   * shadowColor
   * isPointInPath()
+  * drawFocusRing()
   * font
   * textAlign
   * textBaseline
