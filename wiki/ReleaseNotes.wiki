@@ -1,4 +1,5 @@
 #summary FlashCanvas Release Notes
+#labels Featured
 
 You can view a complete ChangeLog [http://code.google.com/p/flashcanvas/source/list here].
 
