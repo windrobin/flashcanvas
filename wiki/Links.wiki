@@ -11,6 +11,11 @@ FlashCanvas is based on the following works:
   * [http://timcameronryan.github.com/FlashCanvas/ haXe version of FlashCanvas] by Tim Cameron Ryan
 
 
+== Fork of FlashCanvas ==
+
+  * [http://code.google.com/p/fxcanvas/ fxCanvas] by Evgeny Burzak
+
+
 == Similar projects ==
 
   * [http://code.google.com/p/explorercanvas/ ExplorerCanvas]
