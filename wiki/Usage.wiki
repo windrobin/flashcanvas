@@ -17,16 +17,19 @@ and then add the following HTML code between `<head>` and `</head>` tags on your
 
 == Initialize Canvas elements ==
 
-When _flashcanvas.js_ is loaded,
-it automatically initialize canvas elements in the HTML file.
-If you create a canvas element dynamically, on the other hand,
-you need to manually initialize the element by calling FlashCanvas.initElement() method.
-Here is a sample code that should work cross-browser.
+When _flashcanvas.js_ is loaded, it automatically initializes canvas elements in the HTML document.
+But in the following cases, you need to manually initialize the element by calling FlashCanvas.initElement() method.
+
+  * If you create a canvas element dynamically using document.createElement("canvas").
+  * If you use a canvas element before window.onload event is fired.
+
+To make the code cross-browser, you should also check the existence of FlashCanvas object.
+Here is a sample code:
 
 {{{
 var canvas = document.createElement("canvas");
 document.getElementById("target").appendChild(canvas);
 if (typeof FlashCanvas != "undefined") {
-  FlashCanvas.initElement(canvas);
+    FlashCanvas.initElement(canvas);
 }
 }}}
