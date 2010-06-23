@@ -4,7 +4,13 @@
 
 == Include _flashcanvas.js_ ==
 
-FlashCanvas library consists of two files, _flashcanvas.js_ and _flashcanvas.swf_.
+FlashCanvas consists of JavaScript, Flash and PHP files:
+
+  * _flashcanvas.js_
+  * _flashcanvas.swf_
+  * _save.php_ (optional)
+
+These files can be found in the bin directory in the distribution package.
 To install FlashCanvas, copy these files into some directory on a Web server,
 and then add the following HTML code between `<head>` and `</head>` tags on your web page.
 
