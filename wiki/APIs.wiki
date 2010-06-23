@@ -51,12 +51,16 @@ support for more APIs will follow in the near future.
   * arc()
   * fill()
   * stroke()
+  * textAlign
+  * textBaseline
 
 === Partially supported ===
 
   * createPattern()
   * arcTo()
   * clip()
+  * font
+  * fillText()
   * drawImage()
 
 === Not supported yet ===
@@ -68,10 +72,6 @@ support for more APIs will follow in the near future.
   * shadowColor
   * isPointInPath()
   * drawFocusRing()
-  * font
-  * textAlign
-  * textBaseline
-  * fillText()
   * strokeText()
   * measureText()
   * createImageData()
