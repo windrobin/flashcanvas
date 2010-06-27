@@ -15,7 +15,7 @@ To install FlashCanvas, copy these files into some directory on a Web server,
 and then add the following HTML code between `<head>` and `</head>` tags on your web page.
 
 {{{
-<!--[if lt IE 9]>
+<!--[if IE]>
 <script type="text/javascript" src="path/to/flashcanvas.js"></script>
 <![endif]-->
 }}}
