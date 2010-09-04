@@ -6,8 +6,9 @@ FlashCanvas library will be loaded if your browser is Internet Explorer.
 
 = Tests =
 
-  * [http://flashcanvas.googlecode.com/svn/trunk/examples/developer.mozilla.org/samples/canvas-tutorial/index.html Canvas tutorial - MDC]
   * [http://flashcanvas.googlecode.com/svn/trunk/examples/explorercanvas.googlecode.com/svn/trunk/index.html Examples and Testcases - ExplorerCanvas]
+  * [http://flashcanvas.googlecode.com/svn/trunk/examples/canvas-text.googlecode.com/svn/trunk/examples/index.html Canvas text examples]
+  * [http://flashcanvas.googlecode.com/svn/trunk/examples/developer.mozilla.org/samples/canvas-tutorial/index.html Canvas tutorial - Mozilla Developer Center]
 
 
 = Demos =
