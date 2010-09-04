@@ -30,7 +30,6 @@ support for more APIs will follow in the near future.
   * transform()
   * setTransform()
   * globalAlpha
-  * strokeStyle
   * fillStyle
   * createLinearGradient()
   * createRadialGradient()
@@ -51,16 +50,19 @@ support for more APIs will follow in the near future.
   * arc()
   * fill()
   * stroke()
+  * font
   * textAlign
   * textBaseline
+  * measureText()
 
 === Partially supported ===
 
+  * strokeStyle
   * createPattern()
   * arcTo()
   * clip()
-  * font
   * fillText()
+  * strokeText()
   * drawImage()
 
 === Not supported yet ===
@@ -72,8 +74,6 @@ support for more APIs will follow in the near future.
   * shadowColor
   * isPointInPath()
   * drawFocusRing()
-  * strokeText()
-  * measureText()
   * createImageData()
   * getImageData()
   * putImageData()
