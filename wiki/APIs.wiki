@@ -6,6 +6,11 @@ The current version of FlashCanvas supports as much Canvas APIs as
 [http://code.google.com/p/explorercanvas/ ExplorerCanvas] does;
 support for more APIs will follow in the near future.
 
+The following is a summary of FlashCanvas support status.
+More easy-to-understand 
+[http://flashcanvas.net/docs/canvas-api comparison table]
+is provided at FlashCanvas site.
+
 
 == HTMLCanvasElement ==
 
