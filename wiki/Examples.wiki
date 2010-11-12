@@ -1,7 +1,7 @@
 #summary HTML5 Canvas examples
 
 Here are some examples which use the HTML5 Canvas.
-FlashCanvas library will be loaded if your browser is Internet Explorer.
+FlashCanvas library will be loaded if your browser is Internet Explorer 8 or earlier.
 
 
 = Tests =
@@ -13,8 +13,8 @@ FlashCanvas library will be loaded if your browser is Internet Explorer.
 
 = Demos =
 
-  * [http://flashcanvas.googlecode.com/svn/trunk/examples/www.chiptune.com/kaleidoscope/index.html Kaleidoscope] by Christophe Résigné (original page is [http://www.chiptune.com/kaleidoscope/ here])
-  * [http://flashcanvas.googlecode.com/svn/trunk/examples/www.chiptune.com/starfield/starfield.html Starfield] by Christophe Résigné (original page is [http://www.chiptune.com/starfield/starfield.html here])
-  * [http://flashcanvas.googlecode.com/svn/trunk/examples/www.andrew-hoyer.com/exp_src/cloth.html Cloth Simulation] by Andrew Hoyer (original page is [http://www.andrew-hoyer.com/experiments/cloth here])
-  * [http://homepage3.nifty.com/revulo/FlashCanvas/examples/open.adaptedstudio.com/html5/many-lines/ Many Lines] by Eric Ishii Eckhardt (original page is [http://open.adaptedstudio.com/html5/many-lines/ here])
+  * [http://flashcanvas.googlecode.com/svn/trunk/examples/www.chiptune.com/kaleidoscope/index.html Kaleidoscope] by Christophe Résigné ([http://www.chiptune.com/kaleidoscope/ original page])
+  * [http://flashcanvas.googlecode.com/svn/trunk/examples/www.chiptune.com/starfield/starfield.html Starfield] by Christophe Résigné ([http://www.chiptune.com/starfield/starfield.html original page])
+  * [http://flashcanvas.googlecode.com/svn/trunk/examples/www.andrew-hoyer.com/exp_src/cloth.html Cloth Simulation] by Andrew Hoyer ([http://www.andrew-hoyer.com/experiments/cloth original page])
+  * [http://homepage3.nifty.com/revulo/FlashCanvas/examples/open.adaptedstudio.com/html5/many-lines/ Many Lines] by Eric Ishii Eckhardt ([http://open.adaptedstudio.com/html5/many-lines/ original page])
   * [http://tomtheisen.com/spread/ Spread Pattern] by Tom Theisen
