@@ -3,6 +3,10 @@
 Here are some examples which use the HTML5 Canvas.
 FlashCanvas library will be loaded if your browser is Internet Explorer 8 or earlier.
 
+If you would like to see more examples,
+please visit [http://flashcanvas.net/ FlashCanvas website].
+There, you can see more Canvas applications and games working with FlashCanvas.
+
 
 = Tests =
 
