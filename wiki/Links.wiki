@@ -6,7 +6,7 @@
 
 FlashCanvas is based on the following works:
 
-  * [http://gxjones.blogspot.com/2008/07/flashcanvas.html The first implementation of FlashCanvas] by Grant Jones
+  * [http://gxjones.blogspot.com/2008/07/flashcanvas.html The first prototype of FlashCanvas] by Grant Jones
   * [http://code.google.com/p/ascanvas/ ASCanvas] by Colin Leung
   * [http://timcameronryan.github.com/FlashCanvas/ haXe version of FlashCanvas] by Tim Cameron Ryan
 
