@@ -51,6 +51,7 @@ is provided at FlashCanvas site.
   * lineTo()
   * quadraticCurveTo()
   * bezierCurveTo()
+  * arcTo()
   * rect()
   * arc()
   * fill()
@@ -64,7 +65,6 @@ is provided at FlashCanvas site.
 
   * strokeStyle
   * createPattern()
-  * arcTo()
   * clip()
   * fillText()
   * strokeText()
