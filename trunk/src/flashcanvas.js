@@ -594,7 +594,7 @@ CanvasRenderingContext2D.prototype = {
 
         // Replace space characters with tab characters because innerText
         // removes trailing white spaces.
-        span.innerText = text.replace(/[ \n\f\r]/g, "\t");
+        span.innerText = ("" + text).replace(/[ \n\f\r]/g, "\t");
 
         return new TextMetrics(span.offsetWidth);
     },
