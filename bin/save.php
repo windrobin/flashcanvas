@@ -33,9 +33,15 @@
  */
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if (isset($_GET['filename'])) {
+        $filename = $_GET['filename'];
+    } else {
+        $filename = 'canvas.png';
+    }
+
     // Force download
     header('Content-Type: application/octet-stream');
-    header('Content-Disposition: attachment; filename="canvas.png"');
+    header('Content-Disposition: attachment; filename="' . $filename . '"');
 
     if (isset($_POST['dataurl'])) {
         // Decode the base64-encoded data
