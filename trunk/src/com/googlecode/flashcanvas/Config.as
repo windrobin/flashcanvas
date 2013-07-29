@@ -31,5 +31,6 @@ package com.googlecode.flashcanvas
     {
         public static var domain:String = "";
         public static var proxy:String;
+        public static var save:String;
     }
 }

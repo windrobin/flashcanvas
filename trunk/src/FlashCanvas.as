@@ -97,9 +97,10 @@ package
             // Create a command parser object
             command = new Command(context, canvasId);
 
-            // Set the URL of the proxy script
+            // Set URLs
             Config.domain = loaderInfo.url.match(/^[^\/]+\/\/[^\/]+\//)[0];
             Config.proxy  = loaderInfo.url.replace(/[^\/]+$/, "proxy.php");
+            Config.save   = loaderInfo.url.replace(/[^\/]+$/, "save.php");
 
             // mouse event listeners
             stage.doubleClickEnabled = true;
@@ -152,9 +153,17 @@ package
 
         public function saveImage(filename:String = null):void
         {
-            var url:String = loaderInfo.url.replace(/[^\/]+$/, "save.php");
+            var url:String = Config.save;
+
             if (filename)
-                url += "?filename=" + filename;
+            {
+                var separator:String;
+                if (url.indexOf("?") == -1)
+                    separator = "?";
+                else
+                    separator = "&";
+                url += separator + "filename=" + filename;
+            }
 
             var request:URLRequest = new URLRequest(url);
             request.contentType = "application/octet-stream";
