@@ -111,7 +111,7 @@ package
             var saveItem:ContextMenuItem  = new ContextMenuItem("Save Image As...");
             var aboutItem:ContextMenuItem = new ContextMenuItem("About FlashCanvas");
 
-            saveItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, saveImage);
+            saveItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, saveItemSelectHandler);
             aboutItem.addEventListener(ContextMenuEvent.MENU_ITEM_SELECT, aboutItemSelectHandler);
 
             contextMenu.hideBuiltInItems();
@@ -150,11 +150,13 @@ package
             context.resize(width, height);
         }
 
-        public function saveImage(event:Event = null):void
+        public function saveImage(filename:String = null):void
         {
             var url:String = loaderInfo.url.replace(/[^\/]+$/, "save.php");
-            var request:URLRequest = new URLRequest(url);
+            if (filename)
+                url += "?filename=" + filename;
 
+            var request:URLRequest = new URLRequest(url);
             request.contentType = "application/octet-stream";
             request.method      = URLRequestMethod.POST;
             request.data        = PNGEncoder.encode(canvas.bitmapData);
@@ -169,6 +171,11 @@ package
                 type = "dblclick";
 
             ExternalInterface.call("FlashCanvas.trigger", canvasId, type);
+        }
+
+        private function saveItemSelectHandler(event:Event):void
+        {
+            saveImage();
         }
 
         private function aboutItemSelectHandler(event:Event):void

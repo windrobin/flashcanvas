@@ -1014,9 +1014,9 @@ var FlashCanvas = {
         return canvas;
     },
 
-    saveImage: function(canvas) {
+    saveImage: function(canvas, filename) {
         var swf = canvas.firstChild;
-        swf.saveImage();
+        swf.saveImage(filename);
     },
 
     setOptions: function(options) {
