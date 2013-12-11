@@ -32,15 +32,34 @@
  * @link       http://code.google.com/p/flashcanvas/
  */
 
+function getHostName() {
+    if (isset($_SERVER['HTTP_X_FORWARDED_HOST'])) {
+        return $_SERVER['HTTP_X_FORWARDED_HOST'];
+    } else if (isset($_SERVER['HTTP_HOST'])) {
+        return $_SERVER['HTTP_HOST'];
+    } else {
+        return $_SERVER['SERVER_NAME'];
+    }
+}
+
 // Whether we check referrer or not
 define('CHECK_REFERRER', true);
 
-// Check that the request is from FlashCanvas
+// If necessary, specify the host where the SWF file is located
+define('SWF_HOST_NAME', '');
+
+// Check that the request comes from the same host
 if (CHECK_REFERRER) {
     if (empty($_SERVER['HTTP_REFERER'])) {
         exit;
     }
-    if (!preg_match('#/flash\d*canvas\.swf$#', $_SERVER['HTTP_REFERER'])) {
+    if (SWF_HOST_NAME) {
+        $host = SWF_HOST_NAME;
+    } else {
+        $host = getHostName();
+    }
+    $pattern = '#^https?://' . str_replace('.', '\.', $host) . '(:\d*)?/#';
+    if (!preg_match($pattern, $_SERVER['HTTP_REFERER'])) {
         exit;
     }
 }
