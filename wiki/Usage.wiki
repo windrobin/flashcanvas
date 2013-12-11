@@ -62,7 +62,7 @@ library to support Internet Explorer.
 To ensure the compatibility with ExplorerCanvas, FlashCanvas also
 implements the G_vmlCanvasManager object and its methods. Therefore,
 if you load _flashcanvas.js_ instead of _excanvas.js_, most of those
-applications will work without the need of modifying your code.
+applications will work without modifying your code.
 
 
 = Save a canvas image =
@@ -97,9 +97,6 @@ _proxy.php_, a PHP script that proxies a request to other domains.
 This script is automatically called from FlashCanvas when you load an
 image from other domain. To make the PHP script work, you must enable
 cURL extension or allow_url_fopen option of PHP.
-In default configuration, _proxy.php_ checks that the request is from
-FlashCanvas. If you'd like to disable the check, set the value of
-CHECK_REFERRER false in _proxy.php_.
 
 
 = Load _flashcanvas.js_ asynchronously =
