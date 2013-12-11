@@ -4,6 +4,25 @@
 You can view a complete ChangeLog [http://code.google.com/p/flashcanvas/source/list here].
 
 
+== FlashCanvas-20131211 ==
+
+(Enhancements)
+
+  * Backported the drawImage() code from FlashCanvas Pro. It is now faster and has less problems.
+  * Implemented FlashCanvas-specific loadImage() method for CanvasRenderingContext2D interface.
+  * Supported canvas.onload event handler.
+  * canvas2png() and saveImage() can now take filename as the second argument.
+
+(Bug fixes)
+
+  * There was a possibility that FlashCanvas did not work well when several Internet Explorer windows existed on the screen.
+  * The proxy script was accidentally used even when images were on the same domain as the SWF file, if used with absolute URL.
+  * FlashCanvas froze if the fillStyle was set to null.
+  * Complicated thick lines were sometimes rendered incorrectly.
+  * measureText() threw an exception when the argument was numerical.
+  * The proxy script should check that the request comes from the same host.
+
+
 == FlashCanvas-20110201 ==
 
 (Enhancements)
