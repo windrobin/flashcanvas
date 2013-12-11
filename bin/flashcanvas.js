@@ -2,7 +2,7 @@
  * FlashCanvas
  *
  * Copyright (c) 2009      Tim Cameron Ryan
- * Copyright (c) 2009-2011 FlashCanvas Project
+ * Copyright (c) 2009-2013 FlashCanvas Project
  * Released under the MIT/X License
  */
 window.ActiveXObject&&!window.CanvasRenderingContext2D&&function(i,j,z){function D(a){this.code=a;this.message=R[a]}function S(a){this.width=a}function v(a){this.id=a.C++}function k(a){this.G=a;this.id=a.C++}function m(a,b){this.canvas=a;this.B=b;this.d=b.id.slice(8);this.D();this.C=0;this.f=this.u="";var c=this;setInterval(function(){o[c.d]===0&&c.e()},30)}function A(){if(j.readyState==="complete"){j.detachEvent(E,A);for(var a=j.getElementsByTagName(r),b=0,c=a.length;b<c;++b)B.initElement(a[b])}}
